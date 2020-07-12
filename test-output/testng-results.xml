@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36860" started-at="2020-07-12T07:12:40Z" finished-at="2020-07-12T07:13:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36860" started-at="2020-07-12T07:12:40Z" finished-at="2020-07-12T07:13:17Z">
+      <class name="com.automationpractice.testcases.LoginPageTestCases">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.automationpractice.testcases.LoginPageTestCases@1810399e]" name="launchBrowser" is-config="true" duration-ms="18392" started-at="2020-07-12T12:42:40Z" finished-at="2020-07-12T12:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginFunctionality()[pri:1, instance:com.automationpractice.testcases.LoginPageTestCases@1810399e]" name="verifyLoginFunctionality" duration-ms="17095" started-at="2020-07-12T12:42:58Z" finished-at="2020-07-12T12:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testcases.LoginPageTestCases@1810399e]" name="closeBrowser" is-config="true" duration-ms="1340" started-at="2020-07-12T12:43:16Z" finished-at="2020-07-12T12:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automationpractice.testcases.LoginPageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

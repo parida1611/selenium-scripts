@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Batch1_Suite]">
+  <test name="Batch1_Test(failed)">
+    <classes>
+      <class name="web.DemoTestNG">
+        <methods>
+          <include name="runBeforeScuite"/>
+          <include name="runBeforeClass"/>
+          <include name="printMe"/>
+          <include name="runAfterMethod"/>
+          <include name="runafterTest"/>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeTest"/>
+          <include name="runafterClass"/>
+          <include name="runafterScuite"/>
+          <include name="checkLoginFunctionality"/>
+        </methods>
+      </class> <!-- web.DemoTestNG -->
+    </classes>
+  </test> <!-- Batch1_Test(failed) -->
+</suite> <!-- Failed suite [Batch1_Suite] -->

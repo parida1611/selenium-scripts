@@ -7,7 +7,8 @@
 
   <test name="UI Test">
     <classes>
-      <class name="webAutomation.ValidateTitleUsingTestNG"/> 
+      <!-- <class name="webAutomation.ValidateTitleUsingTestNG"/>  -->
+      <class name="com.automationpractice.testcases.LoginPageTestCases"/>
     </classes>
   </test> <!-- UI Test -->
 
